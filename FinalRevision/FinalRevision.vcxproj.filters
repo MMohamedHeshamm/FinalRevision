@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\LO1">
+      <UniqueIdentifier>{d1dcd36f-20bf-44e4-9f65-3a6b2690d39a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LO2">
+      <UniqueIdentifier>{c6e7967f-d8e0-43cd-8e0f-3a16ab4507e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LO3">
+      <UniqueIdentifier>{09ddf1f7-5a4c-4166-91fb-d032a267665e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LO4">
+      <UniqueIdentifier>{e42f4d7a-1704-430b-89b3-31b6644dd35e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LO5">
+      <UniqueIdentifier>{975ac386-a0a9-482e-ac09-8df10441e5e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FinalRevision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindCenter.cpp">
+      <Filter>Source Files\LO1</Filter>
+    </ClCompile>
+    <ClCompile Include="FindJudge.cpp">
+      <Filter>Source Files\LO1</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPath.cpp">
+      <Filter>Source Files\LO1</Filter>
+    </ClCompile>
+    <ClCompile Include="Cycle.cpp">
+      <Filter>Source Files\LO1</Filter>
+    </ClCompile>
+    <ClCompile Include="LCS.cpp">
+      <Filter>Source Files\LO2</Filter>
+    </ClCompile>
+    <ClCompile Include="Coins.cpp">
+      <Filter>Source Files\LO2</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseBits.cpp">
+      <Filter>Source Files\LO2</Filter>
+    </ClCompile>
+    <ClCompile Include="powBinaryExponen.cpp">
+      <Filter>Source Files\LO3</Filter>
+    </ClCompile>
+    <ClCompile Include="GCD.cpp">
+      <Filter>Source Files\LO3</Filter>
+    </ClCompile>
+    <ClCompile Include="LCM.cpp">
+      <Filter>Source Files\LO3</Filter>
+    </ClCompile>
+    <ClCompile Include="intersectionLineAndLine.cpp">
+      <Filter>Source Files\LO4</Filter>
+    </ClCompile>
+    <ClCompile Include="intersectionLineCircle.cpp">
+      <Filter>Source Files\LO4</Filter>
+    </ClCompile>
+    <ClCompile Include="intersectionLinePoint.cpp">
+      <Filter>Source Files\LO4</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>Source Files\LO5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SolveingSheet\RabinKarp.cpp">
+      <Filter>Source Files\LO5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SolveingSheet\LCP_SORT.cpp">
+      <Filter>Source Files\LO5</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

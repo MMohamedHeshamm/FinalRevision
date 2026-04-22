@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Sheet">
+      <UniqueIdentifier>{41b3a2ff-f660-4226-9caa-b92116b22a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS">
+      <UniqueIdentifier>{14adc9db-1cd6-43d2-abda-967bdce6f508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS\Week 1">
+      <UniqueIdentifier>{c4f99ebd-3029-40a0-9988-44e3b43e552e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS\Week 2">
+      <UniqueIdentifier>{612ebb69-447f-40ad-937b-94ebf484b69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS\Week 3">
+      <UniqueIdentifier>{1c9555a2-e87e-44fe-8fff-81255c60f936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS\Week 4">
+      <UniqueIdentifier>{e50e1bdc-e319-45c6-a0d4-a7ed4c926615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS\Week 5">
+      <UniqueIdentifier>{7d2e394e-0ba9-4673-ba12-4311d2ebadbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS\Week 6">
+      <UniqueIdentifier>{37e58490-7976-4719-acdd-7ff86de43813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS\Week 7">
+      <UniqueIdentifier>{45c5cb04-3727-4210-908d-a4bb7502bdde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS\Week 8">
+      <UniqueIdentifier>{7a0b5e58-3f87-4f81-b7e1-47213138ec56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS\Week 9">
+      <UniqueIdentifier>{86b79640-d11e-4a59-a422-4314fa82ed05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS\Week 10">
+      <UniqueIdentifier>{140916fa-c614-4227-8c8b-b1343661295a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PS\Week 11">
+      <UniqueIdentifier>{04508733-c2ca-4b07-8e24-2ac0849a0359}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="2. DFS_Sheet.cpp">
+      <Filter>Source Files\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="3. Dikjistra_Sheet.cpp">
+      <Filter>Source Files\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="4. Complete Search_Sheet.cpp">
+      <Filter>Source Files\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="5. Binary search_Sheet.cpp">
+      <Filter>Source Files\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="6. Merge Sort_Sheet.cpp">
+      <Filter>Source Files\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="7. Dynamic Programming_Sheet.cpp">
+      <Filter>Source Files\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="8. GreedyAlgorithm_Sheet.cpp">
+      <Filter>Source Files\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="9. Learning outcome 3_Sheet.cpp">
+      <Filter>Source Files\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="10. Learning Outcome 4_Sheet.cpp">
+      <Filter>Source Files\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="11. Learning Outcome 5_Sheet.cpp">
+      <Filter>Source Files\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="Edge List.cpp">
+      <Filter>Source Files\PS\Week 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Adjacency Matrix.cpp">
+      <Filter>Source Files\PS\Week 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Adjacency List.cpp">
+      <Filter>Source Files\PS\Week 1</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.cpp">
+      <Filter>Source Files\PS\Week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>Source Files\PS\Week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>Source Files\PS\Week 2</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearch.cpp">
+      <Filter>Source Files\PS\Week 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Merge Sort.cpp">
+      <Filter>Source Files\PS\Week 4</Filter>
+    </ClCompile>
+    <ClCompile Include="1. Graph traversal_Sheet.cpp">
+      <Filter>Source Files\Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="Complete Search.cpp">
+      <Filter>Source Files\PS\Week 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Factorial (Memoization).cpp">
+      <Filter>Source Files\PS\Week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="Fibonacci.cpp">
+      <Filter>Source Files\PS\Week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="Factorial (Tabulation).cpp">
+      <Filter>Source Files\PS\Week 5</Filter>
+    </ClCompile>
+    <ClCompile Include="Activity Selection (CPU Scheduling).cpp">
+      <Filter>Source Files\PS\Week 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Coins.cpp">
+      <Filter>Source Files\PS\Week 7</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Exponentiation.cpp">
+      <Filter>Source Files\PS\Week 8</Filter>
+    </ClCompile>
+    <ClCompile Include="GCD.cpp">
+      <Filter>Source Files\PS\Week 8</Filter>
+    </ClCompile>
+    <ClCompile Include="LCM.cpp">
+      <Filter>Source Files\PS\Week 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Extended Euclidean.cpp">
+      <Filter>Source Files\PS\Week 8</Filter>
+    </ClCompile>
+    <ClCompile Include="Sieve_prime.cpp">
+      <Filter>Source Files\PS\Week 8</Filter>
+    </ClCompile>
+    <ClCompile Include="1-Dot_cross_Product.cpp">
+      <Filter>Source Files\PS\Week 9</Filter>
+    </ClCompile>
+    <ClCompile Include="2-Complex_numbers.cpp">
+      <Filter>Source Files\PS\Week 9</Filter>
+    </ClCompile>
+    <ClCompile Include="3-complex_numbers_operations.cpp">
+      <Filter>Source Files\PS\Week 9</Filter>
+    </ClCompile>
+    <ClCompile Include="4-Line_equation.cpp">
+      <Filter>Source Files\PS\Week 9</Filter>
+    </ClCompile>
+    <ClCompile Include="5-lines_Intersection.cpp">
+      <Filter>Source Files\PS\Week 9</Filter>
+    </ClCompile>
+    <ClCompile Include="6-point_check.cpp">
+      <Filter>Source Files\PS\Week 9</Filter>
+    </ClCompile>
+    <ClCompile Include="7-point_check_using_cross.cpp">
+      <Filter>Source Files\PS\Week 9</Filter>
+    </ClCompile>
+    <ClCompile Include="8-Circle_equation.cpp">
+      <Filter>Source Files\PS\Week 9</Filter>
+    </ClCompile>
+    <ClCompile Include="9-Line_circle.cpp">
+      <Filter>Source Files\PS\Week 9</Filter>
+    </ClCompile>
+    <ClCompile Include="LCP_SORT.cpp">
+      <Filter>Source Files\PS\Week 10</Filter>
+    </ClCompile>
+    <ClCompile Include="LCP_BruteForce.cpp">
+      <Filter>Source Files\PS\Week 10</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>Source Files\PS\Week 10</Filter>
+    </ClCompile>
+    <ClCompile Include="RabinKarp.cpp">
+      <Filter>Source Files\PS\Week 10</Filter>
+    </ClCompile>
+    <ClCompile Include="Find_First_Occurrence.cpp">
+      <Filter>Source Files\PS\Week 11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RodCutting.cpp">
+      <Filter>Source Files\PS\Week 9</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
