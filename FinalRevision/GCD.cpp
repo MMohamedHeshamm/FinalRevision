@@ -2,13 +2,13 @@
 using namespace std;
 
 // Recursive GCD using Euclidean Algorithm
-int gcd_recursive(int a, int b)
+int gcd_recursivee(int a, int b)
 {
     if (b == 0)
     {
         return a;
     }
-    return gcd_recursive(b, a % b);
+    return gcd_recursivee(b, a % b);
 }
 
 // Iterative GCD using Euclidean Algorithm

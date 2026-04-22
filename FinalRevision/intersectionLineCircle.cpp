@@ -32,21 +32,21 @@ void findCircleLineIntersection(double h, double k, double r, double m, double c
     }
 }
 
-int main() {
-    double h, k, r, m, c;
-
-    // Input for the circle
-    cout << "Enter the center of the circle (h k): ";
-    cin >> h >> k;
-    cout << "Enter the radius (r): ";
-    cin >> r;
-
-    // Input for the line
-    cout << "Enter the slope (m) and y-intercept (c) of the line: ";
-    cin >> m >> c;
-
-    // Find intersections
-    findCircleLineIntersection(h, k, r, m, c);
-
-    return 0;
-}
+//  int main() {
+//      double h, k, r, m, c;
+//  
+//      // Input for the circle
+//      cout << "Enter the center of the circle (h k): ";
+//      cin >> h >> k;
+//      cout << "Enter the radius (r): ";
+//      cin >> r;
+//  
+//      // Input for the line
+//      cout << "Enter the slope (m) and y-intercept (c) of the line: ";
+//      cin >> m >> c;
+//  
+//      // Find intersections
+//      findCircleLineIntersection(h, k, r, m, c);
+//  
+//      return 0;
+//  }

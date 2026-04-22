@@ -25,7 +25,7 @@ void minCoins(vector<int>& coins, int amount)
 }
 
 //	int main() {
-//	    vector<int> coins = { 1, 5, 10, 25, 50 }; // Coin denominations
+//	    vector<int> coins = { 1, 5, 10, 20, 50,100,200 }; // Coin denominations
 //	    int amount = 68; // Target amount
 //	
 //	    minCoins(coins, amount);

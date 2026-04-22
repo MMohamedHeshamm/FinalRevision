@@ -71,13 +71,14 @@ void KMPSearch(string text, string pattern)
 }
 
 
-//	int main()
-//	{
-//		string text = "ABABABACABABABAC";
-//		string pattern = "ABABAC";
-//	
-//		cout << "Searching for pattern in text..." << endl;
-//		KMPSearch(text, pattern);
-//	
-//		return 0;
-//	}
+	int main()
+	{
+		string text = "ABABABACABABABAC";
+		string pattern = "ABABAC";
+	
+		cout << "Searching for pattern in text..." << endl;
+		KMPSearch(text, pattern);
+	
+		return 0;
+	}
+

@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-bool dfs(int source, int destination, vector<vector<int>>& adj, vector<bool>& visited)
+bool dfss(int source, int destination, vector<vector<int>>& adj, vector<bool>& visited)
 {
 	if (source == destination)
 		return true;
@@ -13,7 +13,7 @@ bool dfs(int source, int destination, vector<vector<int>>& adj, vector<bool>& vi
 	{
 		if (!visited[neighbor])
 		{
-			if (dfs(neighbor, destination, adj, visited))
+			if (dfss(neighbor, destination, adj, visited))
 				return true;
 		}
 	}
@@ -38,7 +38,7 @@ bool validPath(int n, vector<vector<int>>& edges, int source, int destination)
 
 	//node 0 -> visited[0]=true
 
-	return dfs(source, destination, adj, visited);
+	return dfss(source, destination, adj, visited);
 
 }
 
