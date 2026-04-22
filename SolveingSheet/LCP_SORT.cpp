@@ -45,23 +45,23 @@ string longestCommonPrefix(vector<string> strs)
 	*/
 }
 
-int main()
-{
-	vector<string> words = { "flower", "flow", "flight" };
-
-	/*
-
-			int n;
-			for()
-			{
-				//push_back
-			}
-
-	*/
-
-	cout << "LCP: " << longestCommonPrefix(words) << endl; // Output: "fl"
-	return 0;
-}
+//	int main()
+//	{
+//		vector<string> words = { "flower", "flow", "flight" };
+//	
+//		/*
+//	
+//				int n;
+//				for()
+//				{
+//					//push_back
+//				}
+//	
+//		*/
+//	
+//		cout << "LCP: " << longestCommonPrefix(words) << endl; // Output: "fl"
+//		return 0;
+//	}
 
 
 /*
