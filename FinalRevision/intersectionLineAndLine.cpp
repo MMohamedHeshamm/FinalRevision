@@ -7,6 +7,7 @@ void findIntersection(double m1, double c1, double m2, double c2) {
 
     // Check if the lines are parallel
     if (m1 == m2)
+
     {
 
         // If intercepts are also the same, the lines coincide
